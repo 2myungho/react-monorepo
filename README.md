@@ -5,16 +5,17 @@
    - 루트 디렉토리를 생성합니다.
 
 2. **`package.json`에 workspace 배열 추가**
-   2.1. workspace 배열에 프로젝트 이름을 추가합니다.
-   2.2. 루트에서 `yarn` 명령어를 실행하여 `node_modules`에 심볼릭 링크를 생성합니다.
+
+   - workspace 배열에 프로젝트 이름을 추가합니다.
+   - 루트에서 `yarn` 명령어를 실행하여 `node_modules`에 심볼릭 링크를 생성합니다.
 
 3. **`script`에 프로젝트 추가**
-   3.1. 다음과 같은 명령어로 사용이 가능합니다:
 
-   - `yarn desktop start`
-   - `yarn desktop build`
-   - `yarn mobile start`
-   - `yarn mobile build`
+   - 다음과 같은 명령어로 사용이 가능합니다:
+     - `yarn desktop start`
+     - `yarn desktop build`
+     - `yarn mobile start`
+     - `yarn mobile build`
 
 4. **루트 프로젝트에 패키지 설치**
    - 패키지를 설치하려면 다음 명령어를 사용합니다: `yarn add <패키지> -W`
