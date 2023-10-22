@@ -1,5 +1,5 @@
 {
-  "name": "mono-repo",
+  "name": "mobile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,17 +11,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
-  "workspaces": [
-    "mobile",
-    "desktop"
-  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "mobile": "yarn workspace mobile",
-    "desktop": "yarn workspace desktop"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
